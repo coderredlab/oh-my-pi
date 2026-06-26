@@ -1706,7 +1706,8 @@ export const SETTINGS_SCHEMA = {
 			tab: "context",
 			group: "Compaction",
 			label: "Mid-Turn Auto-Compact",
-			description: "Check compaction thresholds at safe tool-loop boundaries before the next model request",
+			description:
+				"Enable mid-turn threshold checks for non-goal tool loops; goal mode keeps its existing protection",
 		},
 	},
 
